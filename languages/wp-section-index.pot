@@ -1,0 +1,227 @@
+# Translation of the WordPress plugin WP Section Index 1.0.0 by Matty.
+# Copyright (C) 2010 Matty
+# This file is distributed under the same license as the WP Section Index package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Section Index 1.0.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/wp-section-index\n"
+"POT-Creation-Date: 2010-12-10 10:47+0000\n"
+"PO-Revision-Date: 2010-12-10 12:57+0200\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: classes/widget.class.php:16
+msgid "A list of the various sections of the page"
+msgstr ""
+
+#: classes/widget.class.php:22
+#: classes/widget.class.php:86
+msgid "Section Index"
+msgstr ""
+
+#: classes/widget.class.php:91
+msgid "Title:"
+msgstr ""
+
+#: classes/wp_sectionindex.class.php:464
+msgid "WP Section Index is almost ready."
+msgstr ""
+
+#: classes/wp_sectionindex.class.php:468
+#, php-format
+msgid "Please <a href=\"%1$s\">run the setup</a> for it to work."
+msgstr ""
+
+#: classes/wp_sectionindex.class.php:476
+#, php-format
+msgid "We noticed that you haven't added the Section Index widget anywhere on your website. Please <a href=\"%1$s\">visit the widgets screen</a> to add it."
+msgstr ""
+
+#: classes/wp_sectionindex.class.php:622
+msgid "Disable Section Indexing"
+msgstr ""
+
+#: classes/wp_sectionindex.class.php:623
+msgid "If this box is checked, the section index will not be run on this"
+msgstr ""
+
+#: classes/wp_sectionindex.class.php:694
+#, php-format
+msgid "%s Documentation"
+msgstr ""
+
+#: classes/wp_sectionindex.class.php:695
+msgid "So, how does this plugin work anyway?"
+msgstr ""
+
+#: classes/wp_sectionindex.class.php:696
+#, php-format
+msgid "The %s plugin is used in conjunction with a widget, displaying the section index for the page currently viewed by the user. The plugin looks through your content and creates easy-to-navigate-to sections within the content. This is ideal for long Pages or blog Posts."
+msgstr ""
+
+#: classes/wp_sectionindex.class.php:697
+msgid "The section index isn't displaying. What gives?"
+msgstr ""
+
+#: classes/wp_sectionindex.class.php:698
+msgid "If the widget is not visible on the Page or Post, the section index will not display. By the same token, if the widget is enabled and there are no sections for the Page or Post in question (or the section index has been disabled for that Page or Post) the widget displaying the section index will not display."
+msgstr ""
+
+#: classes/wp_sectionindex.class.php:699
+msgid "What's this about a \"Back to top\" element ID?"
+msgstr ""
+
+#: classes/wp_sectionindex.class.php:700
+msgid "This is the ID of an element (a `div` tag, for example) in your theme to which you would like the user to jump when a \"Back to top\" link is clicked. It is recommended that this element be somewhere near the top of the screen, usually a `header` or `top` element. The ID can be found by viewing the source of the page and looking for a tag with the `id=\"\"` attribute. The value inside the quotation marks is what is inputted in the `\"Back to top\" element ID` field."
+msgstr ""
+
+#: classes/wp_sectionindex.class.php:701
+msgid "For more information:"
+msgstr ""
+
+#: classes/wp_sectionindex.class.php:702
+msgid "<a href=\"http://matty.co.za/plugins/wp-section-index/\" target=\"_blank\">"
+msgstr ""
+
+#: classes/wp_sectionindex.class.php:703
+msgid "<a href=\"http://wordpress.org/tags/wp-section-index\" target=\"_blank\">"
+msgstr ""
+
+#: settings/screen.php:18
+#, php-format
+msgid "%s Setup"
+msgstr ""
+
+#: settings/screen.php:21
+msgid "Heading Tag"
+msgstr ""
+
+#: settings/screen.php:36
+msgid "Use on Pages"
+msgstr ""
+
+#: settings/screen.php:37
+#: settings/screen.php:44
+#: settings/screen.php:51
+msgid "No"
+msgstr ""
+
+#: settings/screen.php:38
+#: settings/screen.php:45
+#: settings/screen.php:52
+msgid "Yes"
+msgstr ""
+
+#: settings/screen.php:40
+#, php-format
+msgid "%sWhen selected, the section index widget will work on all appropriate Pages%s"
+msgstr ""
+
+#: settings/screen.php:43
+msgid "Use on Posts"
+msgstr ""
+
+#: settings/screen.php:47
+#, php-format
+msgid "%sWhen selected, the section index widget will work on all appropriate Posts%s"
+msgstr ""
+
+#: settings/screen.php:50
+msgid "Insert \"Back to top\" anchors"
+msgstr ""
+
+#: settings/screen.php:54
+#, php-format
+msgid "%sWhen selected, \"back to top\" anchors will be added below each section in the content%s"
+msgstr ""
+
+#: settings/screen.php:57
+msgid "\"Back to top\" element ID"
+msgstr ""
+
+#: settings/screen.php:61
+#, php-format
+msgid "%sThis is the ID of the element to which the \"Back to top\" links will point.%s"
+msgstr ""
+
+#: settings/screen.php:62
+#, php-format
+msgid "%sFor more on this, please see the documentation.%s"
+msgstr ""
+
+#: settings/screen.php:81
+#, php-format
+msgid "%s Database Clean-up <small>(For advanced users only)</small>"
+msgstr ""
+
+#: settings/screen.php:83
+msgid "Database Options Clean-up"
+msgstr ""
+
+#: settings/screen.php:84
+#, php-format
+msgid "The %s plugin makes use of several fields in the %s table in your database. To remove these fields (resetting the %s options), please make use of the form below."
+msgstr ""
+
+#: settings/screen.php:85
+#, php-format
+msgid "Please note that this feature is for advanced users only. It is strongly recommended that you backup your database %s working with this feature."
+msgstr ""
+
+#: settings/screen.php:85
+msgid "before"
+msgstr ""
+
+#: settings/screen.php:89
+msgid "Fields to be removed from the database"
+msgstr ""
+
+#: settings/screen.php:89
+msgid "table"
+msgstr ""
+
+#: settings/screen.php:97
+msgid "Currently set to"
+msgstr ""
+
+#: settings/screen.php:107
+msgid "Final Confirmation"
+msgstr ""
+
+#: settings/screen.php:108
+msgid "I acknowledge and fully understand what I am about to do by clicking the \"Clean Section Index Database &rarr;\" button."
+msgstr ""
+
+#: settings/screen.php:110
+msgid "Clean Section Index Database"
+msgstr ""
+
+#: settings/screen.php:121
+msgid "Update Settings"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WP Section Index"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://matty.co.za/plugins/wp-section-index/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Create a table of contents in a widget for the current page or blog post, using headings from the content."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Matty"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://matty.co.za/"
+msgstr ""
+
